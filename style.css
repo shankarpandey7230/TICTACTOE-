@@ -43,3 +43,24 @@ body {
     grid-template-rows: repeat(3, 60px);
   }
 }
+
+.game-message {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 20px;
+  color: #333;
+}
+
+#resetButton {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background: #333;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+#resetButton:hover {
+  background: #555;
+}
